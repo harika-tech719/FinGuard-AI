@@ -1,22 +1,83 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🛡️ FinGuard AI
 
-# Run and deploy your AI Studio app
+### Smart Finance. Safer Decisions.
 
-This contains everything you need to run your app locally.
+## 📌 About the Project
 
-View your app in AI Studio: https://ai.studio/apps/b4d77c2b-4cec-433f-81d1-2e630cd5c69b
+FinGuard AI is an Android application designed to help users manage personal finances and identify common financial scams. It combines financial management tools, fraud awareness and budget planning in one application.
 
-## Run Locally
+## 🎯 Problem Statement
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+With the growth of digital payments, people face problems such as:
+- Fraudulent SMS messages and suspicious links.
+- Fake UPI payment requests.
+- Difficulty managing monthly expenses.
+- Lack of awareness about digital financial security.
+
+## 💡 Our Solution
+
+FinGuard AI provides simple financial tools and security awareness features to help users make informed and safer financial decisions.
+
+## ✨ Key Features
+
+### 1. Demo Wallet
+- Simulated wallet balance.
+- Add and transfer demo money.
+- View transaction history.
+- Reset wallet data.
+
+### 2. Fraud Shield
+- Scan suspicious SMS messages.
+- Analyse potentially unsafe URLs.
+- Check suspicious UPI requests.
+- Display risk scores and reasons.
+- Maintain scan history.
+
+### 3. Smart Budget Planner
+- Set monthly income and budget.
+- Track expenses by category.
+- View spending charts.
+- Set savings goals.
+- Receive budget alerts and suggestions.
+
+### 4. Security Academy
+- Learn about common financial scams.
+- Understand safe digital payment practices.
+- Improve financial security awareness.
+
+## 🛠️ Technology Stack
+
+- **Platform:** Android
+- **Language:** Kotlin
+- **UI Framework:** Jetpack Compose
+- **IDE:** Android Studio
+- **Fraud Analysis:** Offline rule-based analysis
+- **AI Integration:** Gemini integration explored; the current build uses offline analysis when Gemini is unavailable.
+
+## 🚀 How to Run
+
+1. Clone this repository.
+2. Open the project in Android Studio.
+3. Allow Gradle synchronization to complete.
+4. Connect an Android device or start an emulator.
+5. Click the Run button to build and launch the application.
+
+## 🔐 Important Security Note
+
+- Wallet and payment operations are simulated.
+- No real banking or UPI transactions are performed.
+- Fraud analysis is an awareness aid, not a guarantee that a message or link is safe.
+
+## 👥 Team Members
+
+**Team Name:** [FINOVA]
+
+1. [LAKSHMI PRIYANKA MADDULA]
+2. [MARUPILLA HIMA BINDU]
+3. [GEDHALA SATHVIKA]
+
+## 🏆 Hackathon
+
+Developed for **Arthaton 2026**.
 
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
-7. If you have already published your app in AI Studio, please [request upload key reset](https://support.google.com/googleplay/android-developer/answer/9842756#zippy=%2Crequest-an-upload-key-reset) in Google Play Console.
