@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FinGuard AI</string>
+    <string name="app_subtitle">Intelligent Financial Fraud Shield</string>
+    <string name="simulated_badge">SIMULATED SANDBOX</string>
+    <string name="simulated_tx_badge">SIMULATED TRANSACTION</string>
+    <string name="simulated_balance_badge">SIMULATED BALANCE</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_wallet">Wallet</string>
+    <string name="nav_upi">UPI Sim</string>
+    <string name="nav_shield">Shield</string>
+    <string name="nav_learn">Learn</string>
+    <string name="nav_history">Scan History</string>
+    <string name="nav_budget">Budget Planner</string>
+    <string name="budget_subtitle">Local Personal &amp; Demo Spend Tracker</string>
+    <string name="budget_disclaimer">Personal &amp; demonstration budget ledger stored locally via Room. Never connects to real banks or asks for UPI PINs, OTPs, or passwords.</string>
+    <string name="safety_disclaimer">Educational &amp; simulation sandbox only. Never enter real bank credentials, UPI PINs, OTPs, or card numbers.</string>
+</resources>

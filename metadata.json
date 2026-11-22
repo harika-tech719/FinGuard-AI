@@ -1,0 +1,6 @@
+{
+  "name": "FinGuard AI",
+  "description": "Intelligent Financial Fraud Shield featuring a Demo Wallet, UPI Simulation, AI Fraud Detection, Scan History, and Security Education.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

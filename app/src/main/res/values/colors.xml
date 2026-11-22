@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="obsidian_bg">#FF080F18</color>
+    <color name="navy_surface">#FF0D1926</color>
+    <color name="ocean_blue">#FF146D91</color>
+    <color name="tropical_aqua">#FF48BDB5</color>
+    <color name="champagne_gold">#FFE5C77A</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
